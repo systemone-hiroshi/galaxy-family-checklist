@@ -147,6 +147,9 @@ const GalaxyFamilySoulMatrix = () => {
     setTimeout(() => {
       setAnimation(true);
     }, 500);
+    
+    // ページタイトルを設定
+    document.title = "銀河ファミリー＆一霊四魂マトリクス | グレイトヒーローズジャーニー";
   }, []);
 
   // 評価の変更を処理する関数
